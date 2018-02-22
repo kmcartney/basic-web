@@ -1,5 +1,5 @@
 body {
-  font-family:sans-serif;
+  font-family:"Trattatello";
   font-size: 15px;
   color:#9A1109;
   background-color:#E2EAF1;
@@ -51,6 +51,7 @@ h6 {
 }
 .highlight2 {
   text-transform: uppercase;
+
 }
 tbody {
 line-height:20px;
@@ -98,4 +99,15 @@ a:hover {
   padding-right:.2em;
   color:#CC8484;
   transition:6ms;
+}
+@keyframes animation {
+  from {
+    transform:translateY(100px);
+  }
+50% {
+  transform: translateY(50px);
+  }
+100% {
+  trasnform:translateY(100px);
+  }
 }
